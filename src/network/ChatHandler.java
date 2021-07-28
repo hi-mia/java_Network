@@ -51,7 +51,7 @@ public class ChatHandler extends Thread { //스레드
 			// 남은 클라이언트에게 퇴장 메세지를 보낸다 
 			
 			list.remove(this);
-			br.close(); //나 자신이 높은 곳부터 ㅈ구조조엉
+			br.close();
 			pw.close();
 			socket.close();
 		
